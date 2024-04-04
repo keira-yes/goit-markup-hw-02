@@ -22,3 +22,43 @@
   font-weight: 700;
   font-style: normal;
 } */
+
+/* Global variables */
+
+:root {
+  /* Fonts */
+  --font-main: 'Roboto', sans-serif;
+  --font-logo: 'Raleway', sans-serif;
+
+  /* Letter Spacing */
+  --letter-spacing-sm: 2%;
+  --letter-spacing-lg: 4%;
+
+  /* Colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: ##f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
+  --white: #fff;
+
+  /* Color Variables  */
+  --color-primary: var(--iris);
+  --color-pressed: var(--ocean);
+  --color-dark: var(--navy-blue);
+  --color-success: var(--green);
+  --color-text: var(--slate);
+  --color-subtitle: var(--light-slate);
+  --color-accent: var(--cornflower);
+  --color-light: var(--cloud);
+  --color-overlay: var(--navy-blue-modal);
+  --color-dark-background: var(--grey);
+  --color-light-background: var(--dairy);
+  --color-white: var(--white);
+}
