@@ -62,3 +62,40 @@
   --color-light-background: var(--dairy);
   --color-white: var(--white);
 }
+
+/* Main styles */
+
+body {
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing-sm);
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-sm {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: var(--letter-spacing-lg);
+}
+
+.btn {
+  font-weight: 500;
+  letter-spacing: var(--letter-spacing-lg);
+}
