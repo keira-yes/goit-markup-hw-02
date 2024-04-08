@@ -6,8 +6,8 @@
   --font-logo: 'Raleway', sans-serif;
 
   /* Letter Spacing */
-  --letter-spacing-sm: 2%;
-  --letter-spacing-lg: 4%;
+  --letter-spacing-sm: 0.02em;
+  --letter-spacing-lg: 0.04em;
 
   /* Colors */
   --iris: #4d5ae5;
@@ -22,6 +22,7 @@
   --grey: #2e2f42;
   --dairy: #fcfcfc;
   --white: #fff;
+  --black: 0, 0, 0;
 
   /* Color Variables  */
   --color-primary: var(--iris);
@@ -42,8 +43,10 @@
 
 body {
   font-family: var(--font-main);
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-sm);
+  color: var(--color-dark);
 }
 
 h1 {
@@ -54,12 +57,37 @@ h1 {
 h2 {
   font-size: 36px;
   line-height: 1.11;
+  text-transform: capitalize;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-pressed);
+}
+
+address {
+  font-style: normal;
 }
 
 .text-sm {
@@ -71,4 +99,28 @@ h3 {
 .btn {
   font-weight: 500;
   letter-spacing: var(--letter-spacing-lg);
+}
+
+.btn-primary {
+  box-shadow: 0 4px 4px 0 rgba(var(--black), 0.15);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--color-pressed);
+}
+
+.btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  box-shadow: 0 2px 2px 0 rgba(var(--black), 0.12),
+    0 2px 1px 0 rgba(var(--black), 0.08), 0 3px 1px 0 rgba(var(--black), 0.1);
+  background: var(--color-pressed);
+  color: var(--color-white);
 }
