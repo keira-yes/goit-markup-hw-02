@@ -1,28 +1,3 @@
-/* .raleway-uniquifier {
-  font-family: 'Raleway', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-medium {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-} */
-
 /* Global variables */
 
 :root {
@@ -67,8 +42,6 @@
 
 body {
   font-family: var(--font-main);
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-sm);
 }
